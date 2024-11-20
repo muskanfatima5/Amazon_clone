@@ -279,3 +279,120 @@ ul a {
 .copyright {
     padding-top: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        width: 45%; /* Reduce box width on mobile */
+        margin: 10px;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    /* Footer */
+    .foot-panel2 {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .foot-panel4 {
+        font-size: 0.3rem;
+    }
+
+    /* Hero section */
+    .hero-section {
+        height: 250px; /* Reduce hero section height on mobile */
+    }
+
+    .hero-message {
+        width: 90%;
+    }
+
+    .panel {
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+    }
+
+    .panel-option {
+        width: 100%;
+        text-align: center;
+    }
+
+    .panel-deals {
+        text-align: center;
+    }
+
+    /* Search box */
+    .nav-search {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .search-select, .search-input, .search-icon {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-select {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    .search-icon {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    /* Footer links */
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    ul a {
+        font-size: 0.5rem;
+    }
+}
+
+/* Additional Media Queries for Extra Small Screens (Mobile) */
+@media only screen and (max-width: 480px) {
+    .nav-cart i {
+        font-size: 25px;
+    }
+
+    .box {
+        width: 100%; /* Full width for very small screens */
+    }
+
+    .hero-message {
+        font-size: 0.8rem;
+    }
+
+    .foot-panel1, .foot-panel3 {
+        font-size: 0.7rem;
+    }
+
+    .panel-option {
+        font-size: 0.75rem;
+    }
+
+    .nav-logo {
+        width: 80px;
+        height: 45px;
+    }
+}
